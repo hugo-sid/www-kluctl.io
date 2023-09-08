@@ -4,8 +4,8 @@ metadata:
   name: nginx
 spec:
   selector:
-    appp: nginx
+    app: http
   ports:
-    - name: htttp
+    - name: http
       port: 8080
-      targetPort: htttp
+      targetPort: http
