@@ -124,10 +124,10 @@ As an alternative, you could also use `overrideNamespace` separately in `third-p
 `services/deployment.yml`. In this case, you're also free to use different prefixes for the namespaces, as long as you
 include `{{ target.name }}` in them.
 
-{{< alert >}}
+{{< callout type="warning" >}}
 Please note that `overrideNamespace` only takes effect on a kustomize deployment if it does NOT specify `namespace`.
 If you followed the `kustomization.yml` example from above, make sure to undo the changes to `kustomization.yml`.
-{{< /alert >}}
+{{< /callout >}}
 
 ## Helm Charts and namespaces
 The previously described way of making namespaces dynamic in all resources works well for most cases. There are however

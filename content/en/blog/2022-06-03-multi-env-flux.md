@@ -10,11 +10,11 @@ images:
 
 ![multi-env-flux](/images/blog/multi-env-flux.jpg)
 
-{{< alert >}}
+{{< callout type="warning" >}}
 Please note that the information in this blog post is outdated. Kluctl does
 not integrate into Flux anymore and instead provides an independent
 [Kluctl Controller]({{< ref "docs/gitops" >}}).
-{{< /alert >}}
+{{< /callout >}}
 
 Most projects that have server-side components usually need to be deployed multiple times, at least if you don't want to
 break things for your users all the time. This means, that there is not only one single "prod" environment, but also something

@@ -6,11 +6,11 @@ date: 2022-05-11
 author: Alexander Block (@codablock)
 ---
 
-{{< alert >}}
+{{< callout type="warning" >}}
 Please note that the information in this blog post is outdated. Kluctl does
 not integrate into Flux anymore and instead provides an independent
 [Kluctl Controller]({{< ref "docs/gitops" >}}).
-{{< /alert >}}
+{{< /callout >}}
 
 We're very happy to announce that Kluctl can from now on be used together with [Flux](https://fluxcd.io/). This
 will allow you to combine the workflows and features advertised by Kluctl with GitOps style continuous delivery.
