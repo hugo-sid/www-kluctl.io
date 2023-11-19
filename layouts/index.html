@@ -1,0 +1,298 @@
+{{ define "main" }}
+
+<!-- main -->
+<main>
+  <!-- hero -->
+  <section class="py-[150px] bg-[url('./images/hero.svg')] bg-[bottom_right] bg-no-repeat">
+    <div class="container flex items-center justify-between gap-[50px]">
+      <div class="flex flex-col gap-14 max-w-[628px]">
+        <h1 class="text-[72px] font-bold text-[#0d0e10]">
+          Kluctl - Trust Your Deployments.
+        </h1>
+        <p class="max-w-[590px] text-lg text-[#333]">
+          Easily handle deployments of any size, complexity, and across various environments using
+          Kluctl.
+        </p>
+        <button
+          class="max-w-[160px] flex justify-center items-center gap-2.5 px-[29px] py-[18px] rounded-[7px] bg-[#115748]">
+          <p class="text-lg font-bold text-center text-white">
+            Get Started
+          </p>
+        </button>
+      </div>
+      <div class="relative">
+        <img src="image_kluctl-cli.png" class="w-[561.98px] h-[448px] object-cover" />
+        <!-- <img class="w-16 h-16 absolute left-[1320px] top-[579px]" src="./images/hero-icon.svg" /> -->
+      </div>
+    </div>
+  </section>
+  <!-- end of hero -->
+
+  <!-- deployments -->
+  <section class="py-[85px]">
+    <div class="container flex gap-[75px] justify-between">
+      <div class="flex items-center justify-center w-[523px] h-[641px] rounded-[7px] bg-[#d9d9d9]">
+        <p class="max-w-[446px] text-[56px] font-bold text-center text-[#474747]">
+          Placeholder Image
+        </p>
+      </div>
+      <div class="flex flex-col gap-8">
+        <div class="flex flex-col gap-6 pt-[35px] max-w-[642px]">
+          <h2 class="text-[56px] font-bold text-[#0d0e10]">
+            Take Your Deployments to the Next Level
+          </h2>
+          <p class="text-lg text-[#333]">
+            Kluctl is the missing glue to put together large Kubernetes deployments.
+          </p>
+          <ul>
+            <li class="flex items-start gap-4">
+              <img src="./images/check.svg" />
+              <p class="text-lg text-[#333]">
+                <span class="font-medium">
+                  Manage all your deployments:
+                </span>
+                Control both infrastructure and application deployments using Kluctl.
+              </p>
+            </li>
+            <li class="flex items-start gap-4">
+              <img src="./images/check.svg" />
+              <p class="text-lg text-[#333]">
+                <span class="font-medium">
+                  No difference, whether it's simple or complex :
+                </span>
+                Kluctl makes it easy to manage complex deployments.
+              </p>
+            </li>
+          </ul>
+        </div>
+        <a class="flex items-center gap-2" href="/">
+          <p class="text-lg font-bold text-left text-[#115748]">
+            Learn More
+          </p>
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+            class="flex-grow-0 flex-shrink-0 w-6 h-6 relative" preserveAspectRatio="xMidYMid meet">
+            <path
+              d="M20.7806 12.5306L14.0306 19.2806C13.8899 19.4213 13.699 19.5004 13.5 19.5004C13.301 19.5004 13.1101 19.4213 12.9694 19.2806C12.8286 19.1399 12.7496 18.949 12.7496 18.75C12.7496 18.551 12.8286 18.3601 12.9694 18.2194L18.4397 12.75H3.75C3.55109 12.75 3.36032 12.671 3.21967 12.5303C3.07902 12.3897 3 12.1989 3 12C3 11.8011 3.07902 11.6103 3.21967 11.4697C3.36032 11.329 3.55109 11.25 3.75 11.25H18.4397L12.9694 5.78061C12.8286 5.63988 12.7496 5.44901 12.7496 5.24999C12.7496 5.05097 12.8286 4.8601 12.9694 4.71936C13.1101 4.57863 13.301 4.49957 13.5 4.49957C13.699 4.49957 13.8899 4.57863 14.0306 4.71936L20.7806 11.4694C20.8504 11.539 20.9057 11.6217 20.9434 11.7128C20.9812 11.8038 21.0006 11.9014 21.0006 12C21.0006 12.0986 20.9812 12.1961 20.9434 12.2872C20.9057 12.3782 20.8504 12.461 20.7806 12.5306Z"
+              fill="#115748"></path>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </section>
+  <!-- end of deployments -->
+
+  <!-- features -->
+  <section class="py-8">
+    <div class="container flex flex-col items-center gap-[121px]">
+      <div class="flex flex-col justify-center items-center text-center gap-4 max-w-[642px]">
+        <h2 class="text-[56px] font-bold text-[#0d0e10]">
+          Features
+        </h2>
+        <p class="text-lg text-[#333]">
+          Don’t waste time switching between multiple tools to manage your deployments. Kluctl is
+          one tool to rule them all.
+        </p>
+      </div>
+      <ul class="flex flex-wrap justify-center items-center gap-[84px]">
+        <li
+          class="flex flex-col flex-shrink-0 max-w-[354px] w-full gap-2.5 px-8 pt-8 pb-[40px] rounded-[7px] bg-[#e8f2f0] gap-6">
+          <img src="./images/features-icon.svg" width="40" height="40" />
+          <p class="text-xl font-bold text-[#333]">
+            Native Git support
+          </p>
+          <p class="text-lg text-left text-[#333]">
+            Easily deploy remote Kluctl projects or externalize parts of your Kluctl project.
+          </p>
+        </li>
+        <li
+          class="flex flex-col flex-shrink-0 max-w-[354px] w-full gap-2.5 px-8 pt-8 pb-[40px] rounded-[7px] bg-[#e8f2f0] gap-6">
+          <img src="./images/features-icon.svg" width="40" height="40" />
+          <p class="text-xl font-bold text-[#333]">
+            Native Git support
+          </p>
+          <p class="text-lg text-left text-[#333]">
+            Easily deploy remote Kluctl projects or externalize parts of your Kluctl project.
+          </p>
+        </li>
+        <li
+          class="flex flex-col flex-shrink-0 max-w-[354px] w-full gap-2.5 px-8 pt-8 pb-[40px] rounded-[7px] bg-[#e8f2f0] gap-6">
+          <img src="./images/features-icon.svg" width="40" height="40" />
+          <p class="text-xl font-bold text-[#333]">
+            Native Git support
+          </p>
+          <p class="text-lg text-left text-[#333]">
+            Easily deploy remote Kluctl projects or externalize parts of your Kluctl project.
+          </p>
+        </li>
+        <li
+          class="flex flex-col flex-shrink-0 max-w-[354px] w-full gap-2.5 px-8 pt-8 pb-[40px] rounded-[7px] bg-[#e8f2f0] gap-6">
+          <img src="./images/features-icon.svg" width="40" height="40" />
+          <p class="text-xl font-bold text-[#333]">
+            Native Git support
+          </p>
+          <p class="text-lg text-left text-[#333]">
+            Easily deploy remote Kluctl projects or externalize parts of your Kluctl project.
+          </p>
+        </li>
+        <li
+          class="flex flex-col flex-shrink-0 max-w-[354px] w-full gap-2.5 px-8 pt-8 pb-[40px] rounded-[7px] bg-[#e8f2f0] gap-6">
+          <img src="./images/features-icon.svg" width="40" height="40" />
+          <p class="text-xl font-bold text-[#333]">
+            Native Git support
+          </p>
+          <p class="text-lg text-left text-[#333]">
+            Easily deploy remote Kluctl projects or externalize parts of your Kluctl project.
+          </p>
+        </li>
+        <li
+          class="flex flex-col flex-shrink-0 max-w-[354px] w-full gap-2.5 px-8 pt-8 pb-[40px] rounded-[7px] bg-[#e8f2f0] gap-6">
+          <img src="./images/features-icon.svg" width="40" height="40" />
+          <p class="text-xl font-bold text-[#333]">
+            Native Git support
+          </p>
+          <p class="text-lg text-left text-[#333]">
+            Easily deploy remote Kluctl projects or externalize parts of your Kluctl project.
+          </p>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <!-- end of features -->
+
+  <!-- action -->
+  <section class="pt-[60px] pb-[80px]">
+    <div class="flex flex-col container gap-[78px]">
+      <h2 class="text-[56px] font-bold text-center text-[#0d0e10]">
+        See Kluctl in Action
+      </h2>
+      <div class="flex items-center justify-center p-[30px] rounded-[7px] bg-[#95c2b9]">
+        <!-- there will be a video element -->
+        <img src="kluctl_in_action-1.png" class="w-[1182px] h-[389px] rounded-[7px]" width="1182" height="389" />
+      </div>
+    </div>
+  </section>
+  <!-- end of action -->
+
+  <!-- news -->
+  <section class="pt-[60px] pb-[120px]">
+    <div class="flex flex-col container gap-[100px]">
+      <h2 class="text-[56px] font-bold text-center text-[#0d0e10]">
+        News and Updates
+      </h2>
+      <ul class="flex gap-8">
+        <li
+          class="flex flex-col gap-[16px] max-w-[392px] w-full rounded-[7px] bg-[#e8f2f0] px-[24px] pt-[22px] pb-[30px]">
+          <img src="image.png" class="w-[344px] h-[223px] rounded-[7px] object-cover mb-[19px]" />
+          <p class="text-lg font-medium text-[#166f5d]">
+            Announcement
+          </p>
+          <div class="flex flex-col gap-6">
+            <h3 class="max-w-[308px] text-2xl font-bold text-[#0d0e10]">
+              Introducing the Kluctl Webui
+            </h3>
+            <p class="text-lg text-[#333]">
+              Kluctl Webui, marks the next milestone in the Kluctl Ecosystem. It gives you
+              visibility and control over your Kluctl deployments.
+            </p>
+            <div class="flex items-center gap-6">
+              <div class="flex items-center gap-2">
+                <img width="24" height="24" src="./images/calendar.svg" />
+                <p class="text-sm text-[#333]">
+                  September 12 2023
+                </p>
+              </div>
+              <div class="flex items-center gap-2">
+                <img width="24" height="24" src="./images/clock.svg" />
+                <p class="text-sm text-[#333]">
+                  3 minutes read
+                </p>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li
+          class="flex flex-col gap-[16px] max-w-[392px] w-full rounded-[7px] bg-[#e8f2f0] px-[24px] pt-[22px] pb-[30px]">
+          <img src="image.png" class="w-[344px] h-[223px] rounded-[7px] object-cover mb-[19px]" />
+          <p class="text-lg font-medium text-[#166f5d]">
+            Announcement
+          </p>
+          <div class="flex flex-col gap-6">
+            <h3 class="max-w-[308px] text-2xl font-bold text-[#0d0e10]">
+              Introducing the Kluctl Webui
+            </h3>
+            <p class="text-lg text-[#333]">
+              Kluctl Webui, marks the next milestone in the Kluctl Ecosystem. It gives you
+              visibility and control over your Kluctl deployments.
+            </p>
+            <div class="flex items-center gap-6">
+              <div class="flex items-center gap-2">
+                <img width="24" height="24" src="./images/calendar.svg" />
+                <p class="text-sm text-[#333]">
+                  September 12 2023
+                </p>
+              </div>
+              <div class="flex items-center gap-2">
+                <img width="24" height="24" src="./images/clock.svg" />
+                <p class="text-sm text-[#333]">
+                  3 minutes read
+                </p>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li
+          class="flex flex-col gap-[16px] max-w-[392px] w-full rounded-[7px] bg-[#e8f2f0] px-[24px] pt-[22px] pb-[30px]">
+          <img src="image.png" class="w-[344px] h-[223px] rounded-[7px] object-cover mb-[19px]" />
+          <p class="text-lg font-medium text-[#166f5d]">
+            Announcement
+          </p>
+          <div class="flex flex-col gap-6">
+            <h3 class="max-w-[308px] text-2xl font-bold text-[#0d0e10]">
+              Introducing the Kluctl Webui
+            </h3>
+            <p class="text-lg text-[#333]">
+              Kluctl Webui, marks the next milestone in the Kluctl Ecosystem. It gives you
+              visibility and control over your Kluctl deployments.
+            </p>
+            <div class="flex items-center gap-6">
+              <div class="flex items-center gap-2">
+                <img width="24" height="24" src="./images/calendar.svg" />
+                <p class="text-sm text-[#333]">
+                  September 12 2023
+                </p>
+              </div>
+              <div class="flex items-center gap-2">
+                <img width="24" height="24" src="./images/clock.svg" />
+                <p class="text-sm text-[#333]">
+                  3 minutes read
+                </p>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <!-- end of news -->
+
+  <!-- get started -->
+  <section class="py-[104px]">
+    <div class="container relative flex items-center justify-center">
+      <div
+        class="max-w-[1009px] w-full flex flex-col items-center justify-center p-[38px] gap-8 rounded-[7px] bg-[#e7f3f1] absolute  top-[-65px]">
+        <p class="max-w-[874px] text-[56px] font-bold text-center text-[#0d0e10]">
+          Ready to Solve Your Deployment Issues?
+        </p>
+        <button class="flex justify-center items-center gap-2.5 px-[29px] py-[18px] rounded-md bg-[#115748]">
+          <p class="text-lg font-bold text-center text-white">
+            Get Started
+          </p>
+        </button>
+      </div>
+    </div>
+  </section>
+  <!-- end of get started -->
+</main>
+<!-- end of main -->
+
+{{ end }}
